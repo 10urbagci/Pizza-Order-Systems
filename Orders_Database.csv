@@ -1,0 +1,6 @@
+pizza_type,name,id_card_no,card_number,exp_date,cvv,description,sauce_description,order_date,total_price
+ClassicPizza,Onur,12174128152,4355084355084358,03/27,320,Classic Pizza,Mushrooms Sauce,Sun Mar 12 23:27:58 2023,87
+PlainPizza,Eren,60352998608,5571135571135575,05/25,251,Plain Pizza,,Sun Mar 12 23:29:07 2023,100
+MargheritaPizza,Kenan,57617629148,4506347011448053,07/28,145,Margherita Pizza,,Sun Mar 12 23:30:12 2023,130
+PlainPizza,Deniz,11546500978,4506347022052795,02/25,145,Plain Pizza,Mushrooms Sauce,Sun Mar 12 23:31:25 2023,107
+TurkishPizza,Ceren,91442869294,4506347031187533,09/29,156,Turkish Pizza,Meat Sauce,Sun Mar 12 23:32:10 2023,176
