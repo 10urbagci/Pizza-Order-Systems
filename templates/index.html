@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Verilerim</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Pizza Tipi</th>
+          <th>Ad</th>
+          <th>id_card_no</th>
+          <th>card_number</th>
+          <th>exp_date</th>
+          <th>cvv</th>
+          <th>description</th>
+          <th>sauce_description</th>
+          <th>order_date</th>
+          <th>total_price</th>   
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+          <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] }}</td>
+            <td>{{ row[5] }}</td>
+            <td>{{ row[6] }}</td>
+            <td>{{ row[7] }}</td>
+            <td>{{ row[8] }}</td>
+            <td>{{ row[9] }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
